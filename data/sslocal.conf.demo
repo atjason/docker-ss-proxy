@@ -1,0 +1,10 @@
+{
+  "server": "SERVER",
+  "server_port": 11111,
+  "method": "aes-256-gcm",
+  "password": "PASSWORD",
+  "fast_open": false,
+  "local_address": "0.0.0.0",
+  "local_port": 61080,
+  "workers": 2
+}

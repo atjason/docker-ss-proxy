@@ -21,7 +21,6 @@ RUN apk add shadowsocks-rust-sslocal privoxy
 COPY ./data/* /root/
 
 ENTRYPOINT /bin/sh /root/start.sh
-
 ```
 
 # 如何运行？
@@ -30,8 +29,8 @@ ENTRYPOINT /bin/sh /root/start.sh
 
 ```bash
 cd ./data
-copy privoxy.conf.demo privoxy.conf
-copy sslocal.conf.demo sslocal.conf
+cp privoxy.conf.demo privoxy.conf
+cp sslocal.conf.demo sslocal.conf
 vi privoxy.conf
 vi sslocal.conf
 ```
